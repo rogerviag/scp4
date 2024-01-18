@@ -1,0 +1,69 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.23"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "MultMat_Sec3",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "MultMat_Sec::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-MultMat_Sec-Debug-615d926b347244b564c3.json",
+					"name" : "MultMat_Sec",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "MultMat_Test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-MultMat_Test-Debug-598260fb3a4c067f892a.json",
+					"name" : "MultMat_Test",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/maria/OneDrive/Desktop/MultMat_Sec/MultMat_Sec/cmake-build-debug",
+		"source" : "C:/Users/maria/OneDrive/Desktop/MultMat_Sec/MultMat_Sec"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}
