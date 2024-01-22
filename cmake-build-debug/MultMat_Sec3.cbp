@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="MultMat_Sec3"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/rogervillarroya/CLionProjects/scp4/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j10 -f &quot;/Users/rogervillarroya/CLionProjects/scp4/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j10 -f &quot;/Users/rogervillarroya/CLionProjects/scp4/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j10 -f &quot;/Users/rogervillarroya/CLionProjects/scp4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j10 -f &quot;/Users/rogervillarroya/CLionProjects/scp4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="MultMat_Sec">
+				<Option output="/Users/rogervillarroya/CLionProjects/scp4/cmake-build-debug/MultMat_Sec" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/rogervillarroya/CLionProjects/scp4/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j10 -f &quot;/Users/rogervillarroya/CLionProjects/scp4/cmake-build-debug/Makefile&quot;  VERBOSE=1 MultMat_Sec"/>
+					<CompileFile command="/usr/bin/make -j10 -f &quot;/Users/rogervillarroya/CLionProjects/scp4/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j10 -f &quot;/Users/rogervillarroya/CLionProjects/scp4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j10 -f &quot;/Users/rogervillarroya/CLionProjects/scp4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="MultMat_Sec/fast">
+				<Option output="/Users/rogervillarroya/CLionProjects/scp4/cmake-build-debug/MultMat_Sec" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/rogervillarroya/CLionProjects/scp4/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j10 -f &quot;/Users/rogervillarroya/CLionProjects/scp4/cmake-build-debug/Makefile&quot;  VERBOSE=1 MultMat_Sec/fast"/>
+					<CompileFile command="/usr/bin/make -j10 -f &quot;/Users/rogervillarroya/CLionProjects/scp4/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j10 -f &quot;/Users/rogervillarroya/CLionProjects/scp4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j10 -f &quot;/Users/rogervillarroya/CLionProjects/scp4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="MultMat_Test">
+				<Option output="/Users/rogervillarroya/CLionProjects/scp4/cmake-build-debug/MultMat_Test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/rogervillarroya/CLionProjects/scp4/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j10 -f &quot;/Users/rogervillarroya/CLionProjects/scp4/cmake-build-debug/Makefile&quot;  VERBOSE=1 MultMat_Test"/>
+					<CompileFile command="/usr/bin/make -j10 -f &quot;/Users/rogervillarroya/CLionProjects/scp4/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j10 -f &quot;/Users/rogervillarroya/CLionProjects/scp4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j10 -f &quot;/Users/rogervillarroya/CLionProjects/scp4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="MultMat_Test/fast">
+				<Option output="/Users/rogervillarroya/CLionProjects/scp4/cmake-build-debug/MultMat_Test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/rogervillarroya/CLionProjects/scp4/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j10 -f &quot;/Users/rogervillarroya/CLionProjects/scp4/cmake-build-debug/Makefile&quot;  VERBOSE=1 MultMat_Test/fast"/>
+					<CompileFile command="/usr/bin/make -j10 -f &quot;/Users/rogervillarroya/CLionProjects/scp4/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j10 -f &quot;/Users/rogervillarroya/CLionProjects/scp4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j10 -f &quot;/Users/rogervillarroya/CLionProjects/scp4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/rogervillarroya/CLionProjects/scp4/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j10 -f &quot;/Users/rogervillarroya/CLionProjects/scp4/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j10 -f &quot;/Users/rogervillarroya/CLionProjects/scp4/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j10 -f &quot;/Users/rogervillarroya/CLionProjects/scp4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j10 -f &quot;/Users/rogervillarroya/CLionProjects/scp4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/rogervillarroya/CLionProjects/scp4/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j10 -f &quot;/Users/rogervillarroya/CLionProjects/scp4/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j10 -f &quot;/Users/rogervillarroya/CLionProjects/scp4/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j10 -f &quot;/Users/rogervillarroya/CLionProjects/scp4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j10 -f &quot;/Users/rogervillarroya/CLionProjects/scp4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/rogervillarroya/CLionProjects/scp4/Concurrent_Standard_MultMat.c">
+			<Option target="MultMat_Sec"/>
+		</Unit>
+		<Unit filename="/Users/rogervillarroya/CLionProjects/scp4/Concurrent_Standard_MultMat.h">
+			<Option target="MultMat_Sec"/>
+		</Unit>
+		<Unit filename="/Users/rogervillarroya/CLionProjects/scp4/Concurrent_Strassens_MultMat.c">
+			<Option target="MultMat_Sec"/>
+		</Unit>
+		<Unit filename="/Users/rogervillarroya/CLionProjects/scp4/Concurrent_Strassens_MultMat.h">
+			<Option target="MultMat_Sec"/>
+		</Unit>
+		<Unit filename="/Users/rogervillarroya/CLionProjects/scp4/Errors.c">
+			<Option target="MultMat_Sec"/>
+			<Option target="MultMat_Test"/>
+		</Unit>
+		<Unit filename="/Users/rogervillarroya/CLionProjects/scp4/Errors.h">
+			<Option target="MultMat_Sec"/>
+			<Option target="MultMat_Test"/>
+		</Unit>
+		<Unit filename="/Users/rogervillarroya/CLionProjects/scp4/Matrix.c">
+			<Option target="MultMat_Sec"/>
+			<Option target="MultMat_Test"/>
+		</Unit>
+		<Unit filename="/Users/rogervillarroya/CLionProjects/scp4/Matrix.h">
+			<Option target="MultMat_Sec"/>
+			<Option target="MultMat_Test"/>
+		</Unit>
+		<Unit filename="/Users/rogervillarroya/CLionProjects/scp4/MultMatConcurrent_test.c">
+			<Option target="MultMat_Sec"/>
+		</Unit>
+		<Unit filename="/Users/rogervillarroya/CLionProjects/scp4/MultMat_Concurrent.c">
+			<Option target="MultMat_Sec"/>
+		</Unit>
+		<Unit filename="/Users/rogervillarroya/CLionProjects/scp4/MultMat_Sec.c">
+			<Option target="MultMat_Sec"/>
+		</Unit>
+		<Unit filename="/Users/rogervillarroya/CLionProjects/scp4/MultMat_Test.c">
+			<Option target="MultMat_Test"/>
+		</Unit>
+		<Unit filename="/Users/rogervillarroya/CLionProjects/scp4/Standard_MultMat.c">
+			<Option target="MultMat_Sec"/>
+			<Option target="MultMat_Test"/>
+		</Unit>
+		<Unit filename="/Users/rogervillarroya/CLionProjects/scp4/Standard_MultMat.h">
+			<Option target="MultMat_Sec"/>
+			<Option target="MultMat_Test"/>
+		</Unit>
+		<Unit filename="/Users/rogervillarroya/CLionProjects/scp4/Strassens_MultMat.c">
+			<Option target="MultMat_Sec"/>
+			<Option target="MultMat_Test"/>
+		</Unit>
+		<Unit filename="/Users/rogervillarroya/CLionProjects/scp4/Strassens_MultMat.h">
+			<Option target="MultMat_Sec"/>
+			<Option target="MultMat_Test"/>
+		</Unit>
+		<Unit filename="/Users/rogervillarroya/CLionProjects/scp4/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
