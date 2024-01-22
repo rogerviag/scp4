@@ -1,5 +1,5 @@
 //
-// Created by Roger Villarroya on 20/1/24.
+// Created by Roger Villarroya on 17/1/24.
 //
 #include "Concurrent_Standard_MultMat.h"
 #include <pthread.h>

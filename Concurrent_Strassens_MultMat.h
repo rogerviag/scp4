@@ -1,5 +1,5 @@
 //
-// Created by Roger Villarroya on 20/1/24.
+// Created by Roger Villarroya on 17/1/24.
 //
 
 #ifndef CONCURRENT_STRASSENS_MULTMAT_H
