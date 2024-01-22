@@ -33,7 +33,6 @@ int main(int argc, char ** argv)
     DoMatrixMultiplication(64);
     DoMatrixMultiplication(128);
     DoMatrixMultiplication(512);
-
     DoMatrixMultiplication(1024);
     DoMatrixMultiplication(2048);
 

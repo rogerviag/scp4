@@ -27,7 +27,7 @@ void *standard_mult_thread(void *arg) {
     pthread_exit(NULL);
 }
 
-void concurrent_standard_multiply(int **matrixA, int **matrixB, int **resultMatrix, int rowsA, int colsA, int colsB, int numThreads) {
+void concurrent_standard_multiply(float **matrixA, float **matrixB, float **resultMatrix, int rowsA, int colsA, int colsB, int numThreads) {
     pthread_t threads[numThreads];
     int step = rowsA / numThreads;
 

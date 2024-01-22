@@ -32,7 +32,6 @@ add_executable(MultMat_Concurrent MultMat_Concurrent.c ${SOURCE_FILES})
 
 # Define el ejecutable para tus pruebas concurrentes
 add_executable(MultMatConcurrent_Test MultMatConcurrent_test.c ${SOURCE_FILES})
-#add_executable(MultMat_Test MultMat_Test.c ${SOURCE_FILES} )
 
 # Configura la ruta de los include para que el compilador sepa dónde buscar los archivos .h
 include_directories(${CMAKE_CURRENT_SOURCE_DIR})

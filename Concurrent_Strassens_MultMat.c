@@ -119,8 +119,17 @@ float** subMatrix(float** matrixA, float** matrixB, int n) {
 
 
 float** standardMultiplication(float** a, float** b, int size) {
-    // ... implementación de la multiplicación estándar
+    float** result = createZeroMatrix(size);
+    for (int i = 0; i < size; i++) {
+        for (int j = 0; j < size; j++) {
+            for (int k = 0; k < size; k++) {
+                result[i][j] += a[i][k] * b[k][j];
+            }
+        }
+    }
+    return result;
 }
+
 
 float** divide(float** matrix, int n, int row, int col) {
     int newSize = n / 2;
