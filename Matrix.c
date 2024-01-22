@@ -125,3 +125,46 @@ void saveMatrix(char *outputFile, float ** matrix,int n)
     }
     fclose(fileMatrix);
 }
+
+
+// funciones adicionales, creadas para la version concurrente //
+
+
+float** readMatrixFromFile(const char* filename, int* rows, int* cols) {
+    FILE* file = fopen(filename, "r");
+    if (file == NULL) {
+        perror("Error al abrir el archivo");
+        return NULL;
+    }
+
+    fscanf(file, "%d %d", rows, cols);
+    float** matrix = createZeroMatrix(*rows);
+    for (int i = 0; i < *rows; ++i) {
+        for (int j = 0; j < *cols; ++j) {
+            fscanf(file, "%f", &matrix[i][j]);
+        }
+    }
+
+    fclose(file);
+    return matrix;
+}
+
+void writeMatrixToFile(const char* filename, float** matrix, int rows, int cols) {
+    FILE* file = fopen(filename, "w");
+    if (file == NULL) {
+        perror("Error al abrir el archivo");
+        return;
+    }
+
+    fprintf(file, "%d %d\n", rows, cols);
+    for (int i = 0; i < rows; ++i) {
+        for (int j = 0; j < cols; ++j) {
+            fprintf(file, "%.2f ", matrix[i][j]);
+        }
+        fprintf(file, "\n");
+    }
+
+    fclose(file);
+}
+
+

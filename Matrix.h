@@ -7,7 +7,7 @@
 
 // Functions Prototypes
 float** create(int,int);
-float** createZeroMatrix(int);
+float** createZeroMatrix(int n);
 void printMatrix(float **, int);
 void printMatrixC(float ** matrix,int n, char *color);
 void openMatrix(char *inputFile, float ** *matrix,int *n);

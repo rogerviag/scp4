@@ -143,15 +143,6 @@ void compose(float** subMatrix, float** resultMatrix, int row, int col, int size
 }
 
 
-float** createZeroMatrix(int n) {
-    float** matrix = (float**)malloc(n * sizeof(float*));
-    for (int i = 0; i < n; i++) {
-        matrix[i] = (float*)calloc(n, sizeof(float));
-    }
-    return matrix;
-}
-
-
 void freeMatrix(float** matrix) {
     if (matrix != NULL) {
         int i = 0;

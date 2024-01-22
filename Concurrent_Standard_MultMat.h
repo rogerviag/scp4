@@ -5,8 +5,6 @@
 #ifndef CONCURRENT_STANDARD_MULTMAT_H
 #define CONCURRENT_STANDARD_MULTMAT_H
 
-void *standard_mult_thread(void *arg);
+void concurrent_standard_multiply(float **matrixA, float **matrixB, float **resultMatrix, int rowsA, int colsA, int colsB, int numThreads);
 
-void concurrent_standard_multiply(int **matrixA, int **matrixB, int **resultMatrix, int rowsA, int colsA, int colsB, int numThreads);
-
-#endif /* CONCURRENT_STANDARD_MULTMAT_H */
+#endif // CONCURRENT_STANDARD_MULTMAT_H
