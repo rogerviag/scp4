@@ -8,14 +8,14 @@
 #include <stdlib.h>
 #include <time.h>
 
-// Asumiendo que las siguientes funciones están definidas en Matrix.h
+// funcions definides adicionalment a Matrix.c/h
 float** readMatrixFromFile(const char* filename, int* rows, int* cols);
 void writeMatrixToFile(const char* filename, float** matrix, int rows, int cols);
-void freeMatrix(float** matrix, int rows);
+void freeMatrix(float** matrix);
 
 int main(int argc, char* argv[]) {
     if (argc < 5) {
-        printf("Uso: %s <ArchivoMatrizA> <ArchivoMatrizB> <ArchivoResultado> <NumHilos> [<metodo>]\n", argv[0]);
+        printf("Uso: %s <MatrixA_File> <MatrixB_File> <ResultMatrix_File> <#Threads> [<metodo>]\n", argv[0]);
         return 1;
     }
 
@@ -30,8 +30,8 @@ int main(int argc, char* argv[]) {
 
     if (colsA != rowsB) {
         printf("Error: Las matrices no se pueden multiplicar debido a sus dimensiones.\n");
-        freeMatrix(matrixA, rowsA);
-        freeMatrix(matrixB, rowsB);
+        freeMatrix(matrixA);
+        freeMatrix(matrixB);
         return 1;
     }
 
@@ -52,9 +52,9 @@ int main(int argc, char* argv[]) {
     printf("Tiempo de ejecución: %f segundos\n", elapsed);
     writeMatrixToFile(argv[3], resultMatrix, rowsA, colsB);
 
-    freeMatrix(matrixA, rowsA);
-    freeMatrix(matrixB, rowsB);
-    freeMatrix(resultMatrix, rowsA);
+    freeMatrix(matrixA);
+    freeMatrix(matrixB);
+    freeMatrix(resultMatrix);
 
     return 0;
 }

@@ -168,3 +168,13 @@ void writeMatrixToFile(const char* filename, float** matrix, int rows, int cols)
 }
 
 
+void freeMatrix(float** matrix) {
+    if (matrix != NULL) {
+        int i = 0;
+        while (matrix[i] != NULL) {
+            free(matrix[i]);
+            i++;
+        }
+        free(matrix);
+    }
+}

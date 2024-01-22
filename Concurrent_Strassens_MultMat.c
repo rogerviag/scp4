@@ -151,17 +151,3 @@ void compose(float** subMatrix, float** resultMatrix, int row, int col, int size
     }
 }
 
-
-void freeMatrix(float** matrix) {
-    if (matrix != NULL) {
-        int i = 0;
-        while (matrix[i] != NULL) {
-            free(matrix[i]);
-            i++;
-        }
-        free(matrix);
-    }
-}
-
-
-
